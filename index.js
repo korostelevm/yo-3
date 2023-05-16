@@ -14,7 +14,7 @@ res.send('yo')
 
 router.get('/', async (req, res)=>{
       console.log(req.headers)
-     await new Promise(resolve => setTimeout(resolve, 100));
+     await new Promise(resolve => setTimeout(resolve, 1000));
     return res.json({
        hello:'world'
     })
