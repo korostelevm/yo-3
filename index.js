@@ -34,6 +34,6 @@ router.get('/process_exit', (req, res)=>{
 
 let server = app.listen(3000)
 
- server.keepAliveTimeout = 3000; 
+//  server.keepAliveTimeout = 3000; 
 // Ensure all inactive connections are terminated by the ALB, by setting this a few seconds higher than the ALB idle timeout
- server.headersTimeout = 100; 
+//  server.headersTimeout = 100; 
