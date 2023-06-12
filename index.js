@@ -36,7 +36,7 @@ const sleep = ms =>
   new Promise(resolve => setTimeout(resolve, ms ));
 
 console.log('sleeping')
-sleep(2000).then(()=>{
+sleep(4000).then(()=>{
    console.log('woke up')
 let server = app.listen(3000)
 
