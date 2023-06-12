@@ -13,8 +13,8 @@ res.send('yo')
 
 
 router.get('/', async (req, res)=>{
-      console.log(req.headers)
-      console.error(`asdfasdfasdfasdfasdf asdfalskdf alksdf aslkdf alskdf laksdf lkasdjf lkasdf jlkasdf lka;sdf laksdf laksdf jklasdf lask;dfl ;askdfas;dfasdfasdfasdfasdfasfd 111111111 11111 333333333333333333 9999999999999999999
+//       console.log(req.headers)
+//       console.error(`asdfasdfasdfasdfasdf asdfalskdf alksdf aslkdf alskdf laksdf lkasdjf lkasdf jlkasdf lka;sdf laksdf laksdf jklasdf lask;dfl ;askdfas;dfasdfasdfasdfasdfasfd 111111111 11111 333333333333333333 9999999999999999999
 alskdf alksdf aslkdf alskdf laksdf lkasdjf lkasdf jlkasdf lka;sdf laksdf laksdf jklasdf lask;dfl ;askdfas;dfasdfasdfasdfasdfasfd 111111111
 alskdf alksdf aslkdf alskdf laksdf lkasdjf lkasdf jlkasdf lka;sdf laksdf laksdf jklasdf lask;dfl ;askdfas;dfasdfasdfasdfasdfasfd 111111111
 alskdf alksdf aslkdf alskdf laksdf lkasdjf lkasdf jlkasdf lka;sdf laksdf laksdf jklasdf lask;dfl ;askdfas;dfasdfasdfasdfasdfasfd 111111111
