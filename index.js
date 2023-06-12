@@ -35,13 +35,13 @@ router.get('/process_exit', (req, res)=>{
 const sleep = ms =>
   new Promise(resolve => setTimeout(resolve, ms ));
 
-console.log('sleeping')
-sleep(4000).then(()=>{
-   console.log('woke up')
+// console.log('sleeping')
+// sleep(4000).then(()=>{
+//    console.log('woke up')
 let server = app.listen(3000)
 
 //  server.keepAliveTimeout = 3000; 
 // Ensure all inactive connections are terminated by the ALB, by setting this a few seconds higher than the ALB idle timeout
 //  server.headersTimeout = 100; 
 
-})
+// })
