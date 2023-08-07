@@ -4,7 +4,7 @@ const app = express()
 const router = express.Router()
 
 
-
+let a = 0;
 app.use('/',router)
 router.post('/', async (req, res)=>{
    await new Promise(resolve => setTimeout(resolve, 1000));
@@ -13,7 +13,9 @@ res.send('yo')
 
 
 router.get('/', async (req, res)=>{
-//       console.log(req.headers)
+   console.log(req.headers)
+   a += 1;
+   console.log(a);
 
    
 //      await new Promise(resolve => setTimeout(resolve, 3000));
