@@ -13,7 +13,8 @@ res.send('yo')
 
 
 router.get('/', async (req, res)=>{
-   console.log(req.headers)
+   // console.log(req.headers)
+      console.log('asdfasdfasdfasdfsa asdfasdfa asdasdfas asdfasdfasdfads asdfasdfasdfasv asdfasdfasdfasdfasdfasdf asdfasdfasdfasdfasdfasdf asdfsd');
    a += 1;
    console.log(a);
 
