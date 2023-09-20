@@ -21,7 +21,8 @@ router.get('/', async (req, res)=>{
    
 //      await new Promise(resolve => setTimeout(resolve, 3000));
     return res.json({
-       hello:'world'
+       hello:'world',
+       more: 'stuff'
     })
 })
 
